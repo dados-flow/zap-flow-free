@@ -1,42 +1,101 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>ZapFlow Free</title>
-  <meta name="description" content="ZapFlow Free: simples, útil e 100% gratuito — para sempre. Instale a extensão no Google Chrome e ganhe produtividade no WhatsApp Web.">
-  <link rel="stylesheet" href="style.css" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ZapFlow Free</title>
+
+<style>
+    :root{
+      --bg:#0b0f14;
+      --card:#111824;
+      --text:#ffffff;
+      --muted:#d0d0d0;
+      --brand:#22c55e;
+      --brand-dark:#16a34a;
+      --border:#1e293b;
+    }
+
+    *{ box-sizing:border-box; }
+    body{
+        margin:0;
+        padding:0;
+        font-family:Arial, Helvetica, sans-serif;
+        background:var(--bg);
+        color:var(--text);
+        text-align:center;
+    font-size:24px;
+        font-weight:bold;
+        border-bottom:2px solid var(--brand);
+    }
+
+    .container{
+        max-width:800px;
+        margin:auto;
+        padding:40px 20px;
+    }
+
+    h1{
+        font-size:40px;
+        color:var(--brand);
+        margin-bottom:10px;
+    }
+
+    p{
+        font-size:18px;
+        color:var(--muted);
+        line-height:1.6;
+    }
+
+    a.btn{
+        display:inline-block;
+        margin-top:25px;
+        padding:14px 22px;
+        background:var(--brand);
+        color:#0b0f14;
+        text-decoration:none;
+        font-weight:bold;
+        font-size:18px;
+        border-radius:10px;
+    }
+
+    a.btn:hover{
+        background:var(--brand-dark);
+    }
+
+    footer{
+        margin-top:40px;
+        padding:20px;
+        background:var(--card);
+        color:#999;
+        font-size:14px;
+        border-top:1px solid var(--brand);
+    }
+</style>
+
 </head>
 <body>
-  <header class="zf-header">
-    <div class="zf-container">
-      <strong>ZapFlow Free</strong>
-    </div>
-  </header>
 
-  <main class="zf-container zf-main">
-    <h1>ZapFlow é <span class="zf-green">Free</span> — e sempre será.</h1>
-    <p class="zf-lead">
-      Criado para ser simples e útil. Use no seu WhatsApp Web e ganhe mais velocidade e produtividade.
+<header>
+    ZapFlow Free
+</header>
+
+<div class="container">
+    <h1>Free. Para Sempre.</h1>
+    <p>
+        O ZapFlow é uma extensão criada para ser simples, útil e totalmente gratuita — sempre.<br>
+        Aumente sua produtividade no WhatsApp Web com mais agilidade e praticidade.
     </p>
 
-    <!-- Substitua SEU_ID_AQUI pelo ID/URL real da sua extensão -->
-    <a
-      class="zf-btn"
-      href="https://chromewebstore.google.com/detail/SEU_ID_AQUI"
-      target="_blank"
-      rel="noopener"
-      aria-label="Instalar extensão ZapFlow Free no Google Chrome"
-    >
-      Instalar Extensão no Google Chrome
+    <!-- Substitua SEU_ID_AQUI pelo ID correto da Chrome Web Store -->
+    <a class="btn" href="https://chromewebstore.google.com/detail/SEU_ID_AQUI" target="_blank">
+        Instalar Extensão no Google Chrome
     </a>
-  </main>
+</div>
 
-  <footer class="zf-footer">
-    <div class="zf-container">
-      © 2026 ZapFlow Free — Sempre gratuito.
-    </div>
-  </footer>
+<footer>
+    © 2026 ZapFlow Free — Sempre gratuito.
+</footer>
+
 </body>
 </html>
-``
